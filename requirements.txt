@@ -1,0 +1,4 @@
+certifi==2019.11.28
+pypiwin32==223
+pywin32==227
+wincertstore==0.2
