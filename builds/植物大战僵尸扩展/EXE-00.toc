@@ -37,7 +37,7 @@
  [],
  False,
  False,
- 1580739912,
+ 1580867491,
  [('runw.exe',
    'c:\\programdata\\anaconda3\\envs\\import_of_plants_vs_zombies\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\runw.exe',
    'EXECUTABLE')])

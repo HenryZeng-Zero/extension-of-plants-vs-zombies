@@ -2,12 +2,12 @@ import win32process, win32api, ctypes, win32gui
 class Back():
     # init ########################################################################################################
     def __init__(self):
-        RROCESS_ALL_ACCESS = (0x000F0000 | 0x00100000 | 0xFFF)
+        PROCESS_ALL_ACCESS = (0x000F0000 | 0x00100000 | 0xFFF)
         Process = win32gui.FindWindow('MainWindow', 'Plants vs. Zombies')
         # 寻找进程
         hid, pid = win32process.GetWindowThreadProcessId(Process)
         # 进程号
-        self.phandle = win32api.OpenProcess(RROCESS_ALL_ACCESS, False, pid)
+        self.phandle = win32api.OpenProcess(PROCESS_ALL_ACCESS, False, pid)
         self.dll = ctypes.windll.LoadLibrary('C:\\Windows\\System32\\kernel32.dll')
 
         self.SunLight_index=int()
