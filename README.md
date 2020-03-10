@@ -17,3 +17,4 @@ python main.py
 ```
 ### 注意
     Test.py与主程序无关，可以删除
+    Build.py依赖pyinstaller，打包目录在builds\distpath
